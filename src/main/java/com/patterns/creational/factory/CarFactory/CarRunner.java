@@ -1,7 +1,8 @@
 public class CarRunner {
     public static void main(String[] args) {
         CarMaker carMaker = createCarByBrand("Kia");
-        Car car = carMaker.createCar();
+        Car car;
+        car = carMaker.createCar();
 
         car.drive();
     }
